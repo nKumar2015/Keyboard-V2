@@ -1915,7 +1915,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1930,7 +1930,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
+			(property "Value" "Crystal_GND24"
 				(at 3.175 3.175 0)
 				(effects
 					(font
@@ -1957,7 +1957,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1984,7 +1984,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -2093,7 +2093,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -2131,7 +2131,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -2149,7 +2149,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -8005,12 +8005,6 @@
 		(uuid "0e950f67-2ebd-4cf8-9f4f-56c59fe8d701")
 	)
 	(junction
-		(at 355.6 304.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ee1c622-aaa0-48fe-bd74-8a03246a6cc9")
-	)
-	(junction
 		(at 266.7 341.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8122,7 +8116,7 @@
 		(at 378.46 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32f2c12a-4da9-44c3-a733-8e9f82b18776")
+		(uuid "329cf704-c818-4e45-a454-36e0dac8cdd9")
 	)
 	(junction
 		(at 400.05 374.65)
@@ -8141,12 +8135,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "393ec83b-5b3f-428a-92ca-d808d69eae6a")
-	)
-	(junction
-		(at 378.46 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a75b707-48b8-47c5-aef0-73f3d3ed1926")
 	)
 	(junction
 		(at 194.31 67.31)
@@ -8257,10 +8245,22 @@
 		(uuid "5d5fc8d7-def0-4fe5-8698-f278cb7bccda")
 	)
 	(junction
+		(at 449.58 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d90d6cd-06f6-46eb-bca2-36135b9f85a2")
+	)
+	(junction
 		(at 309.88 293.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6083ccca-db60-4c31-bf43-3782c39279af")
+	)
+	(junction
+		(at 378.46 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64364285-514b-4377-9690-5e0ae0fa1bec")
 	)
 	(junction
 		(at 154.94 50.8)
@@ -8305,6 +8305,12 @@
 		(uuid "6d7b2cbb-810f-4705-b977-498ef0872891")
 	)
 	(junction
+		(at 510.54 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7023a38b-5e1f-4063-b780-09323c20b4b1")
+	)
+	(junction
 		(at 180.34 341.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8323,22 +8329,10 @@
 		(uuid "7871256d-98d6-4225-a996-b9f57154367d")
 	)
 	(junction
-		(at 449.58 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78907a25-991c-4057-87e8-43872fd77f98")
-	)
-	(junction
 		(at 48.26 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79e4c027-c031-44e6-956d-e275d8d157f0")
-	)
-	(junction
-		(at 355.6 297.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79f496bc-d725-4d67-9e9c-e5d86ceb0fb9")
 	)
 	(junction
 		(at 266.7 269.24)
@@ -8351,6 +8345,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c5cdd66-b256-44ba-abda-7dc4ecf5920e")
+	)
+	(junction
+		(at 449.58 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f3f46d6-04a0-4c82-8f93-f667900dfbd5")
 	)
 	(junction
 		(at 180.34 196.85)
@@ -8389,12 +8389,6 @@
 		(uuid "8457a022-8bf4-4612-8fd8-47ae403d8450")
 	)
 	(junction
-		(at 449.58 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86c6a767-05bf-462d-ac6d-dfda432d341b")
-	)
-	(junction
 		(at 92.71 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8425,16 +8419,16 @@
 		(uuid "92c88f06-26ef-47f8-b450-38722152f69e")
 	)
 	(junction
+		(at 314.96 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "935218b0-ff13-4961-b799-eb1c8904ba89")
+	)
+	(junction
 		(at 104.14 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "935da803-29d9-4f24-b5d6-89dd6971050e")
-	)
-	(junction
-		(at 510.54 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95e6e6d7-1347-4644-8182-d1eacf1ad10e")
 	)
 	(junction
 		(at 137.16 341.63)
@@ -8503,6 +8497,12 @@
 		(uuid "a384dd48-a761-4252-b17a-bc6a10b491c7")
 	)
 	(junction
+		(at 355.6 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3a499db-e338-4b0f-8360-572e9a565ee1")
+	)
+	(junction
 		(at 266.7 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8537,6 +8537,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0b272b4-ccee-42d7-b36c-0df4054f32b1")
+	)
+	(junction
+		(at 355.6 297.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b24964a9-27f7-4b0e-a196-41a6d58651a8")
 	)
 	(junction
 		(at 309.88 269.24)
@@ -8603,12 +8609,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c34d6313-f169-4758-bd34-dce0cc0e3d01")
-	)
-	(junction
-		(at 314.96 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c36aeaf9-b255-4e8a-8efb-f6090c07cbbf")
 	)
 	(junction
 		(at 168.91 67.31)
@@ -18228,6 +18228,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 449.58 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09f03ede-4cae-42e9-8b4c-f652c5feab31")
+		(property "Reference" "#PWR0314"
+			(at 449.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 447.548 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 449.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 449.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 449.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "417f2977-89ea-4e18-91ac-7c809381fb0b")
+		)
+		(instances
+			(project "Keyboard V2"
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 92.71 144.78 0)
 		(unit 1)
@@ -19059,71 +19126,6 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "#PWR0331")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 378.46 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10178b57-4ce6-495e-801f-4079d99f7bf3")
-		(property "Reference" "#FLG06"
-			(at 376.555 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 370.84 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 378.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 378.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 378.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebb1da4c-70e5-49bd-b708-4faf6e971754")
-		)
-		(instances
-			(project "Keyboard V2"
-				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -20092,6 +20094,73 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "SW79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 510.54 17.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12f5b80e-adfe-42e0-b76e-f1bd65d51936")
+		(property "Reference" "#PWR0364"
+			(at 510.54 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 508.508 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 510.54 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d54704d-82e2-41cd-8acd-4816ce6e9d14")
+		)
+		(instances
+			(project "Keyboard V2"
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "#PWR0364")
 					(unit 1)
 				)
 			)
@@ -23303,7 +23372,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 378.46 17.78 0)
+		(at 378.46 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23311,7 +23380,7 @@
 		(dnp no)
 		(uuid "27c84282-4d14-4610-842b-0e2d623b3459")
 		(property "Reference" "#PWR022"
-			(at 378.46 21.59 0)
+			(at 382.27 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23320,7 +23389,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 378.206 13.97 0)
+			(at 372.618 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23328,7 +23397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 17.78 0)
+			(at 378.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23337,7 +23406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 17.78 0)
+			(at 378.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23346,7 +23415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 378.46 17.78 0)
+			(at 378.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27532,6 +27601,73 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 378.46 17.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3745b19c-303d-44e9-a3b5-2830e3d2e38f")
+		(property "Reference" "#PWR0356"
+			(at 378.46 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 376.428 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 378.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20ec2660-9785-4ccc-bc94-29819c828150")
+		)
+		(instances
+			(project "Keyboard V2"
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "#PWR0356")
 					(unit 1)
 				)
 			)
@@ -42214,6 +42350,73 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
+		(at 314.96 19.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c969cef-dee1-4398-bb83-0d2ddfff734f")
+		(property "Reference" "#PWR0352"
+			(at 314.96 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.928 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cb52e9b-d7a7-48cd-af66-7e9395c3a9b8")
+		)
+		(instances
+			(project "Keyboard V2"
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "#PWR0352")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
 		(at 137.16 402.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -44284,7 +44487,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 510.54 17.78 0)
+		(at 510.54 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44292,7 +44495,7 @@
 		(dnp no)
 		(uuid "73e3ed19-a90c-47f3-a78c-53df23d4284a")
 		(property "Reference" "#PWR080"
-			(at 510.54 21.59 0)
+			(at 514.35 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44301,7 +44504,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 510.286 13.97 0)
+			(at 503.936 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44309,7 +44512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 510.54 17.78 0)
+			(at 510.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44318,7 +44521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 510.54 17.78 0)
+			(at 510.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44327,7 +44530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 510.54 17.78 0)
+			(at 510.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47259,7 +47462,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 449.58 90.17 0)
+		(at 449.58 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47267,7 +47470,7 @@
 		(dnp no)
 		(uuid "7d79a61d-1e03-41e0-8c47-b819f273655b")
 		(property "Reference" "#PWR018"
-			(at 449.58 93.98 0)
+			(at 453.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47276,7 +47479,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 449.326 86.36 0)
+			(at 443.23 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47284,7 +47487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 449.58 90.17 0)
+			(at 449.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47293,7 +47496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 90.17 0)
+			(at 449.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47302,7 +47505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 449.58 90.17 0)
+			(at 449.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47799,71 +48002,6 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 378.46 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "806fc63d-d268-4d51-942d-307a16d516e3")
-		(property "Reference" "#FLG08"
-			(at 376.555 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 370.84 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 378.46 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 378.46 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 378.46 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d934d93-36a2-4e92-a792-6dcb4b217720")
-		)
-		(instances
-			(project "Keyboard V2"
-				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
-					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -55859,71 +55997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 449.58 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1657b0d-16ef-4d74-81d3-e8e2e0584561")
-		(property "Reference" "#FLG011"
-			(at 447.675 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 441.96 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 449.58 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 449.58 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 449.58 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1811cde-06b7-4fed-8ea2-74a8a0379305")
-		)
-		(instances
-			(project "Keyboard V2"
-				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
-					(reference "#FLG011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 193.04 397.51 90)
 		(unit 1)
@@ -56965,6 +57038,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 449.58 17.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a38f0a94-c379-4862-aa91-cf8d6b0572fd")
+		(property "Reference" "#PWR0360"
+			(at 449.58 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 447.548 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 449.58 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 449.58 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 449.58 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baf4fbd9-fe04-49d8-812f-8c204d50c9af")
+		)
+		(instances
+			(project "Keyboard V2"
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "#PWR0360")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 62.23 156.21 90)
 		(unit 1)
@@ -57305,71 +57445,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 314.96 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a44fe2b1-c323-44c0-a83b-9ec227345c2c")
-		(property "Reference" "#FLG07"
-			(at 313.055 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 307.34 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 314.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 314.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cc557a4-7b86-403e-b8c0-b699b994e821")
-		)
-		(instances
-			(project "Keyboard V2"
-				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
-					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 180.34 368.3 270)
 		(unit 1)
@@ -57429,6 +57504,73 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "#PWR0350")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 378.46 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a537cd73-7341-4152-ad7b-ed235cec7686")
+		(property "Reference" "#PWR0348"
+			(at 378.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 376.428 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 378.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e21089-5f07-466a-bccd-6884699206d3")
+		)
+		(instances
+			(project "Keyboard V2"
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "#PWR0348")
 					(unit 1)
 				)
 			)
@@ -58071,7 +58213,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 449.58 17.78 0)
+		(at 449.58 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -58079,7 +58221,7 @@
 		(dnp no)
 		(uuid "a949cf67-cf15-471d-9f1a-ff60d36c5dcf")
 		(property "Reference" "#PWR020"
-			(at 449.58 21.59 0)
+			(at 453.39 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58088,7 +58230,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 449.326 13.97 0)
+			(at 443.484 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58096,7 +58238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 449.58 17.78 0)
+			(at 449.58 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58105,7 +58247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 17.78 0)
+			(at 449.58 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58114,7 +58256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 449.58 17.78 0)
+			(at 449.58 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62385,7 +62527,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 378.46 96.52 0)
+		(at 378.46 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62393,7 +62535,7 @@
 		(dnp no)
 		(uuid "ba26fc97-3127-4497-9274-1516dd3c0670")
 		(property "Reference" "#PWR016"
-			(at 378.46 100.33 0)
+			(at 382.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62402,7 +62544,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 378.206 92.71 0)
+			(at 371.856 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62410,7 +62552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 96.52 0)
+			(at 378.46 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62419,7 +62561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 96.52 0)
+			(at 378.46 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62428,7 +62570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 378.46 96.52 0)
+			(at 378.46 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64056,6 +64198,79 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 355.6 300.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ffd987-58bb-48f8-823d-473b0da3123c")
+		(property "Reference" "Y2"
+			(at 341.122 301.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24"
+			(at 343.662 301.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
+			(at 355.6 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 355.6 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4cc4616-9d4f-4c47-bfd8-74ae28f799e5")
+		)
+		(pin "1"
+			(uuid "cb1b995b-3503-496e-8998-eb2c2532b0ec")
+		)
+		(pin "3"
+			(uuid "ff2dbcb3-7f12-435d-bd07-d3ac4d1bf1e7")
+		)
+		(pin "4"
+			(uuid "0315b3e2-55ed-49bf-99bd-6379178d141b")
+		)
+		(instances
+			(project ""
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -67213,7 +67428,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 314.96 19.05 0)
+		(at 314.96 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67221,7 +67436,7 @@
 		(dnp no)
 		(uuid "d5a2752d-4314-49e0-bb53-33ed7aca8802")
 		(property "Reference" "#PWR023"
-			(at 314.96 22.86 0)
+			(at 318.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67230,7 +67445,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 314.706 15.24 0)
+			(at 308.61 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67238,7 +67453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 19.05 0)
+			(at 314.96 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67247,7 +67462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 19.05 0)
+			(at 314.96 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67256,7 +67471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 314.96 19.05 0)
+			(at 314.96 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69328,88 +69543,6 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 355.6 300.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1996e91-de7a-47d2-8320-f120a7e0b4bf")
-		(property "Reference" "Y1"
-			(at 355.6 301.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND23"
-			(at 343.408 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
-			(at 355.6 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 355.6 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
-			(at 355.6 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JlcRotOffset" ""
-			(at 355.6 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c666bd8e-3012-4c72-a9dd-48160a66011c")
-		)
-		(pin "3"
-			(uuid "9fe642eb-dad1-42e7-9d88-dcbb35dedf25")
-		)
-		(pin "2"
-			(uuid "73bad582-f670-42fc-8cc8-5de54efd4876")
-		)
-		(pin "4"
-			(uuid "b0cb5fde-2a95-4368-945d-0acb705f681a")
-		)
-		(instances
-			(project ""
-				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -74630,71 +74763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 449.58 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1bea80a-9b89-4cf2-8019-6e32ef4b035f")
-		(property "Reference" "#FLG09"
-			(at 447.675 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 441.96 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 449.58 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 449.58 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 449.58 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e589c309-5acb-4ec4-848f-cee997f74466")
-		)
-		(instances
-			(project "Keyboard V2"
-				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
-					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 180.34 330.2 90)
@@ -76681,71 +76749,6 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "C93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 510.54 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f99cd48b-cdce-44c7-b223-4897f0396d6a")
-		(property "Reference" "#FLG010"
-			(at 508.635 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 502.92 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 510.54 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 510.54 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40aad0f4-33d4-46f5-bbaf-326c8738be8d")
-		)
-		(instances
-			(project "Keyboard V2"
-				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
-					(reference "#FLG010")
 					(unit 1)
 				)
 			)
