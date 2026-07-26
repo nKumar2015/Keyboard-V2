@@ -1,0 +1,424 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.18
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Nov  3 2024, 06:58:22) [MSC v.1939 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 8.0.7 with 4.2.2 msw (phoenix) wxWidgets 3.2.6
+INFO: kbplacer_dialog.py:799: Language: en
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "C:\\Users\\sanpa\\Desktop\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 4.0, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+WARNING: key_placer.py:137: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:144: Switches by nets: {}
+DEBUG: key_placer.py:148: Diodes by switch: {'SW61': ['D1'], 'SW37': ['D1'], 'SW62': ['D1'], 'SW33': ['D1'], 'SW64': ['D1'], 'SW72': ['D1'], 'SW38': ['D1'], 'SW16': ['D1'], 'SW31': ['D1'], 'SW36': ['D1'], 'SW74': ['D1'], 'SW76': ['D1'], 'SW70': ['D1'], 'SW56': ['D1'], 'SW48': ['D1'], 'SW81': ['D1'], 'SW43': ['D1'], 'SW77': ['D1'], 'SW35': ['D1'], 'SW57': ['D1'], 'SW32': ['D1'], 'SW14': ['D1'], 'SW69': ['D1'], 'SW28': ['D1'], 'SW41': ['D1'], 'SW40': ['D1'], 'SW66': ['D1'], 'SW27': ['D1'], 'SW67': ['D1'], 'SW71': ['D1'], 'SW60': ['D1'], 'SW79': ['D1'], 'SW73': ['D1'], 'SW42': ['D1'], 'SW55': ['D1'], 'SW54': ['D1'], 'SW53': ['D1'], 'SW39': ['D1'], 'SW45': ['D1'], 'SW52': ['D1'], 'SW51': ['D1'], 'SW78': ['D1'], 'SW13': ['D1'], 'SW12': ['D1'], 'SW11': ['D1'], 'SW10': ['D1'], 'SW9': ['D1'], 'SW8': ['D1'], 'SW7': ['D1'], 'SW6': ['D1'], 'SW5': ['D1'], 'SW4': ['D1'], 'SW3': ['D1'], 'SW2': ['D1'], 'SW50': ['D1'], 'SW1': ['D1'], 'SW58': ['D1'], 'SW59': ['D1'], 'SW34': ['D1'], 'SW80': ['D1'], 'SW30': ['D1'], 'SW49': ['D1'], 'SW68': ['D1'], 'SW46': ['D1'], 'SW63': ['D1'], 'SW44': ['D1'], 'SW29': ['D1'], 'SW65': ['D1'], 'SW75': ['D1'], 'SW47': ['D1'], 'SW25': ['D1'], 'SW24': ['D1'], 'SW23': ['D1'], 'SW22': ['D1'], 'SW21': ['D1'], 'SW20': ['D1'], 'SW19': ['D1'], 'SW18': ['D1'], 'SW17': ['D1'], 'SW26': ['D1']}
+DEBUG: board_modifier.py:73: Searching for SW1 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+INFO: key_placer.py:625: Looking for connection template between SW1 and other elements
+DEBUG: board_modifier.py:132: Getting SW1 footprint position: (193050000, 89970000)
+INFO: key_placer.py:669: Got connection template: 
+INFO: kle_serial.py:1038: User layout: [['Esc', {'x': 0.25}, 'F1', 'F2', 'F3', 'F4', {'x': 0.25}, 'F5', 'F6', 'F7', 'F8', {'x': 0.25}, 'F9', 'F10', 'F11', 'F12', {'x': 0.25}, 'PrtSc', {'x': 0.25, 'c': '#62bdde'}, 'Knob'], [{'y': 0.25, 'c': '#cccccc'}, '~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'w': 2}, 'Backspace', {'x': 0.25}, 'Del'], [{'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\', {'x': 0.25}, 'Home'], [{'w': 1.75}, 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'w': 2.25}, 'Enter', {'x': 0.25}, 'End'], [{'w': 2.25}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'w': 1.75}, 'Shift'], [{'y': -0.75, 'x': 14.25}, '↑'], [{'y': -0.25, 'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Win', {'w': 1.25}, 'Alt', {'a': 7, 'w': 6.25}, '', {'a': 4, 'w': 1.5}, 'Alt', {'w': 1.5}, 'Fn'], [{'y': -0.75, 'x': 13.25}, '←', '↓', '→']]
+DEBUG: key_placer.py:757: Using key 1U distance: (19.05, 19.05) mm
+DEBUG: key_placer.py:775: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1132: Layout with: x_ortholinear_keys=21, y_ortholinear_keys=15, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1157: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:119: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW2 footprint position: (61912500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW3 footprint position: (80962500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW4 footprint position: (100012500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW5 footprint position: (119062500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW6 footprint position: (142875000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW7 footprint position: (161925000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW8 footprint position: (180975000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW9 footprint position: (200025000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW10 footprint position: (223837500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW11 footprint position: (242887500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW12 footprint position: (261937500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW13 footprint position: (280987500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW14 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW15 footprint position: (328612500, 38100000)
+DEBUG: board_modifier.py:119: Setting SW16 footprint position: (38100000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW17 footprint position: (57150000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW18 footprint position: (76200000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW19 footprint position: (95250000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW20 footprint position: (114300000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW21 footprint position: (133350000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW22 footprint position: (152400000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW23 footprint position: (171450000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW24 footprint position: (190500000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW25 footprint position: (209550000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW26 footprint position: (228600000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW27 footprint position: (247650000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW28 footprint position: (266700000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW29 footprint position: (295275000, 61912500)
+DEBUG: board_modifier.py:119: Setting SW30 footprint position: (328612500, 61912500)
+DEBUG: board_modifier.py:119: Setting SW31 footprint position: (42862500, 80962500)
+DEBUG: board_modifier.py:119: Setting SW32 footprint position: (66675000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW33 footprint position: (85725000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW34 footprint position: (104775000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW35 footprint position: (123825000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW36 footprint position: (142875000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW37 footprint position: (161925000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW38 footprint position: (180975000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW39 footprint position: (200025000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW40 footprint position: (219075000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW41 footprint position: (238125000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW42 footprint position: (257175000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW43 footprint position: (276225000, 80962500)
+DEBUG: board_modifier.py:119: Setting SW44 footprint position: (300037500, 80962500)
+DEBUG: board_modifier.py:119: Setting SW45 footprint position: (328612500, 80962500)
+DEBUG: board_modifier.py:119: Setting SW46 footprint position: (45243750, 100012500)
+DEBUG: board_modifier.py:119: Setting SW47 footprint position: (71437500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW48 footprint position: (90487500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW49 footprint position: (109537500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW50 footprint position: (128587500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW51 footprint position: (147637500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW52 footprint position: (166687500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW53 footprint position: (185737500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW54 footprint position: (204787500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW55 footprint position: (223837500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW56 footprint position: (242887500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW57 footprint position: (261937500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW58 footprint position: (292893750, 100012500)
+DEBUG: board_modifier.py:119: Setting SW59 footprint position: (328612500, 100012500)
+DEBUG: board_modifier.py:119: Setting SW60 footprint position: (50006250, 119062500)
+DEBUG: board_modifier.py:119: Setting SW61 footprint position: (80962500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW62 footprint position: (100012500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW63 footprint position: (119062500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW64 footprint position: (138112500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW65 footprint position: (157162500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW66 footprint position: (176212500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW67 footprint position: (195262500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW68 footprint position: (214312500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW69 footprint position: (233362500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW70 footprint position: (252412500, 119062500)
+DEBUG: board_modifier.py:119: Setting SW71 footprint position: (278606250, 119062500)
+DEBUG: board_modifier.py:119: Setting SW72 footprint position: (309562500, 123825000)
+DEBUG: board_modifier.py:119: Setting SW73 footprint position: (40481250, 138112500)
+DEBUG: board_modifier.py:119: Setting SW74 footprint position: (64293750, 138112500)
+DEBUG: board_modifier.py:119: Setting SW75 footprint position: (88106250, 138112500)
+DEBUG: board_modifier.py:119: Setting SW76 footprint position: (159543750, 138112500)
+DEBUG: board_modifier.py:119: Setting SW77 footprint position: (233362500, 138112500)
+DEBUG: board_modifier.py:119: Setting SW78 footprint position: (261937500, 138112500)
+DEBUG: board_modifier.py:119: Setting SW79 footprint position: (290512500, 142875000)
+DEBUG: board_modifier.py:119: Setting SW80 footprint position: (309562500, 142875000)
+DEBUG: board_modifier.py:119: Setting SW81 footprint position: (328612500, 142875000)
+INFO: key_placer.py:1188: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=4.0, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)]
+DEBUG: key_placer.py:934: Placing additional elements for SW61
+DEBUG: board_modifier.py:132: Getting SW61 footprint position: (80962500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST61 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW37
+DEBUG: board_modifier.py:132: Getting SW37 footprint position: (161925000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST37 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW62
+DEBUG: board_modifier.py:132: Getting SW62 footprint position: (100012500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST62 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW33
+DEBUG: board_modifier.py:132: Getting SW33 footprint position: (85725000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST33 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW64
+DEBUG: board_modifier.py:132: Getting SW64 footprint position: (138112500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST64 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW72
+DEBUG: board_modifier.py:132: Getting SW72 footprint position: (309562500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST72 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW38
+DEBUG: board_modifier.py:132: Getting SW38 footprint position: (180975000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST38 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW16
+DEBUG: board_modifier.py:132: Getting SW16 footprint position: (38100000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW31
+DEBUG: board_modifier.py:132: Getting SW31 footprint position: (42862500, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW36
+DEBUG: board_modifier.py:132: Getting SW36 footprint position: (142875000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST36 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW74
+DEBUG: board_modifier.py:132: Getting SW74 footprint position: (64293750, 138112500)
+DEBUG: board_modifier.py:84: Searching for optional ST74 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW76
+DEBUG: board_modifier.py:132: Getting SW76 footprint position: (159543750, 138112500)
+DEBUG: board_modifier.py:84: Searching for optional ST76 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW70
+DEBUG: board_modifier.py:132: Getting SW70 footprint position: (252412500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST70 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW56
+DEBUG: board_modifier.py:132: Getting SW56 footprint position: (242887500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST56 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW48
+DEBUG: board_modifier.py:132: Getting SW48 footprint position: (90487500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST48 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW81
+DEBUG: board_modifier.py:132: Getting SW81 footprint position: (328612500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional ST81 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW43
+DEBUG: board_modifier.py:132: Getting SW43 footprint position: (276225000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST43 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW77
+DEBUG: board_modifier.py:132: Getting SW77 footprint position: (233362500, 138112500)
+DEBUG: board_modifier.py:84: Searching for optional ST77 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW35
+DEBUG: board_modifier.py:132: Getting SW35 footprint position: (123825000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST35 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW57
+DEBUG: board_modifier.py:132: Getting SW57 footprint position: (261937500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST57 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW32
+DEBUG: board_modifier.py:132: Getting SW32 footprint position: (66675000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST32 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW14
+DEBUG: board_modifier.py:132: Getting SW14 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW69
+DEBUG: board_modifier.py:132: Getting SW69 footprint position: (233362500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST69 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW28
+DEBUG: board_modifier.py:132: Getting SW28 footprint position: (266700000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW41
+DEBUG: board_modifier.py:132: Getting SW41 footprint position: (238125000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST41 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW40
+DEBUG: board_modifier.py:132: Getting SW40 footprint position: (219075000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST40 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW66
+DEBUG: board_modifier.py:132: Getting SW66 footprint position: (176212500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST66 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW27
+DEBUG: board_modifier.py:132: Getting SW27 footprint position: (247650000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW67
+DEBUG: board_modifier.py:132: Getting SW67 footprint position: (195262500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST67 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW71
+DEBUG: board_modifier.py:132: Getting SW71 footprint position: (278606250, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST71 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW60
+DEBUG: board_modifier.py:132: Getting SW60 footprint position: (50006250, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST60 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW79
+DEBUG: board_modifier.py:132: Getting SW79 footprint position: (290512500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional ST79 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW73
+DEBUG: board_modifier.py:132: Getting SW73 footprint position: (40481250, 138112500)
+DEBUG: board_modifier.py:84: Searching for optional ST73 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW42
+DEBUG: board_modifier.py:132: Getting SW42 footprint position: (257175000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST42 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW55
+DEBUG: board_modifier.py:132: Getting SW55 footprint position: (223837500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST55 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW54
+DEBUG: board_modifier.py:132: Getting SW54 footprint position: (204787500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST54 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW53
+DEBUG: board_modifier.py:132: Getting SW53 footprint position: (185737500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST53 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW39
+DEBUG: board_modifier.py:132: Getting SW39 footprint position: (200025000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST39 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW45
+DEBUG: board_modifier.py:132: Getting SW45 footprint position: (328612500, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST45 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW52
+DEBUG: board_modifier.py:132: Getting SW52 footprint position: (166687500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST52 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW51
+DEBUG: board_modifier.py:132: Getting SW51 footprint position: (147637500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST51 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW78
+DEBUG: board_modifier.py:132: Getting SW78 footprint position: (261937500, 138112500)
+DEBUG: board_modifier.py:84: Searching for optional ST78 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW13
+DEBUG: board_modifier.py:132: Getting SW13 footprint position: (280987500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW12
+DEBUG: board_modifier.py:132: Getting SW12 footprint position: (261937500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW11
+DEBUG: board_modifier.py:132: Getting SW11 footprint position: (242887500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW10
+DEBUG: board_modifier.py:132: Getting SW10 footprint position: (223837500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW9
+DEBUG: board_modifier.py:132: Getting SW9 footprint position: (200025000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW8
+DEBUG: board_modifier.py:132: Getting SW8 footprint position: (180975000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW7
+DEBUG: board_modifier.py:132: Getting SW7 footprint position: (161925000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW6
+DEBUG: board_modifier.py:132: Getting SW6 footprint position: (142875000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW5
+DEBUG: board_modifier.py:132: Getting SW5 footprint position: (119062500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW4
+DEBUG: board_modifier.py:132: Getting SW4 footprint position: (100012500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW3
+DEBUG: board_modifier.py:132: Getting SW3 footprint position: (80962500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW2
+DEBUG: board_modifier.py:132: Getting SW2 footprint position: (61912500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW50
+DEBUG: board_modifier.py:132: Getting SW50 footprint position: (128587500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST50 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW1
+DEBUG: board_modifier.py:132: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW58
+DEBUG: board_modifier.py:132: Getting SW58 footprint position: (292893750, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST58 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW59
+DEBUG: board_modifier.py:132: Getting SW59 footprint position: (328612500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST59 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW34
+DEBUG: board_modifier.py:132: Getting SW34 footprint position: (104775000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST34 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW80
+DEBUG: board_modifier.py:132: Getting SW80 footprint position: (309562500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional ST80 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW30
+DEBUG: board_modifier.py:132: Getting SW30 footprint position: (328612500, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW49
+DEBUG: board_modifier.py:132: Getting SW49 footprint position: (109537500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST49 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW68
+DEBUG: board_modifier.py:132: Getting SW68 footprint position: (214312500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST68 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW46
+DEBUG: board_modifier.py:132: Getting SW46 footprint position: (45243750, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST46 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW63
+DEBUG: board_modifier.py:132: Getting SW63 footprint position: (119062500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST63 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW44
+DEBUG: board_modifier.py:132: Getting SW44 footprint position: (300037500, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST44 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW29
+DEBUG: board_modifier.py:132: Getting SW29 footprint position: (295275000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW65
+DEBUG: board_modifier.py:132: Getting SW65 footprint position: (157162500, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST65 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW75
+DEBUG: board_modifier.py:132: Getting SW75 footprint position: (88106250, 138112500)
+DEBUG: board_modifier.py:84: Searching for optional ST75 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW47
+DEBUG: board_modifier.py:132: Getting SW47 footprint position: (71437500, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST47 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW25
+DEBUG: board_modifier.py:132: Getting SW25 footprint position: (209550000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW24
+DEBUG: board_modifier.py:132: Getting SW24 footprint position: (190500000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW23
+DEBUG: board_modifier.py:132: Getting SW23 footprint position: (171450000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW22
+DEBUG: board_modifier.py:132: Getting SW22 footprint position: (152400000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW21
+DEBUG: board_modifier.py:132: Getting SW21 footprint position: (133350000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW20
+DEBUG: board_modifier.py:132: Getting SW20 footprint position: (114300000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW19
+DEBUG: board_modifier.py:132: Getting SW19 footprint position: (95250000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW18
+DEBUG: board_modifier.py:132: Getting SW18 footprint position: (76200000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW17
+DEBUG: board_modifier.py:132: Getting SW17 footprint position: (57150000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW26
+DEBUG: board_modifier.py:132: Getting SW26 footprint position: (228600000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:934: Placing additional elements for SW15
+DEBUG: board_modifier.py:132: Getting SW15 footprint position: (328612500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in C:\Users\sanpa\Documents\Personal Projects\keyboard\Keyboard V2\Keyboard V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:518: Removing dangling tracks
