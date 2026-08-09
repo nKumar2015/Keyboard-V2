@@ -1,0 +1,5 @@
+(version 1)
+(rule "Neckdown Region"
+  (condition "A.insideArea('Neckdown_Zone')")
+  (constraint track_width (opt 0.1mm))
+  (constraint clearance (min 0.125mm)))

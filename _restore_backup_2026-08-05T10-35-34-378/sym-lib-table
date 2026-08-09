@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "A1395SEHLT-T")(type "KiCad")(uri "${KIPRJMOD}/lib/A1395SEHLT-T/A1395SEHLT-T.kicad_sym")(options "")(descr ""))
+)
