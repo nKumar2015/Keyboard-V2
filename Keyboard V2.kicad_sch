@@ -9774,6 +9774,12 @@
 		(uuid "cec57e5c-abbf-46bf-8dad-f88e88df9723")
 	)
 	(junction
+		(at 421.64 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf38267e-ea42-4971-9e08-aa70709a9606")
+	)
+	(junction
 		(at 445.77 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11031,6 +11037,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 187.96) (xy 421.64 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdef34a-360d-4d4c-a7b6-9b2ae2a6306b")
+	)
+	(wire
+		(pts
 			(xy 469.9 293.37) (xy 476.25 293.37)
 		)
 		(stroke
@@ -11388,6 +11404,16 @@
 			(type default)
 		)
 		(uuid "b50cfa91-2535-4c7b-8acb-7f9c86c20aec")
+	)
+	(wire
+		(pts
+			(xy 421.64 187.96) (xy 424.18 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b880344a-97a0-4e40-8207-db948152da43")
 	)
 	(wire
 		(pts
@@ -49702,7 +49728,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 424.18 187.96 90)
+		(at 417.83 187.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49712,7 +49738,7 @@
 		(dnp no)
 		(uuid "6a5a2f62-af4e-4f5d-a55d-064c2831deb0")
 		(property "Reference" "#PWR0358"
-			(at 427.99 187.96 0)
+			(at 421.64 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49723,7 +49749,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 419.354 187.96 90)
+			(at 413.004 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49733,7 +49759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 424.18 187.96 0)
+			(at 417.83 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49744,7 +49770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 424.18 187.96 0)
+			(at 417.83 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49755,7 +49781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 424.18 187.96 0)
+			(at 417.83 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -81694,6 +81720,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 421.64 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6e8c323-797a-497d-8d43-6f3f62f9d981")
+		(property "Reference" "C127"
+			(at 414.274 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 414.274 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 422.6052 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 421.64 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JlcRotOffset" ""
+			(at 421.64 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 421.64 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f525368-1b85-49d9-9131-d93854d0f3b5")
+		)
+		(pin "2"
+			(uuid "844fa8bd-d4d9-438f-98e5-90a8d04ea386")
+		)
+		(instances
+			(project "Keyboard V2"
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "C127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 48.26 341.63 270)
 		(unit 1)
@@ -83024,6 +83153,85 @@
 			(project "Keyboard V2"
 				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 421.64 180.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbdc4ecb-b7c6-44b4-bffb-b39342f9bd4f")
+		(property "Reference" "#PWR0351"
+			(at 421.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 419.608 176.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 421.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 421.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "409762ae-dcfe-4116-937f-0767a70dcbfc")
+		)
+		(instances
+			(project "Keyboard V2"
+				(path "/96496970-5c1d-491e-a01c-033bb0240d78"
+					(reference "#PWR0351")
 					(unit 1)
 				)
 			)
