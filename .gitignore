@@ -1,2 +1,7 @@
 /production/backups
 /Keyboard V2-backups
+*.lck
+*.rpt
+*.bak
+*-backups/
+_restore_backup_*/
